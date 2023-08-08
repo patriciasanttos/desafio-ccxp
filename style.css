@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #FFD900;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+
+/* Informação */
+
+#info-chamada {
+    display: flex;
+    flex-direction: row;
+}
+
+#informacao {
+    background-color: #514988;
+    width: 780px;
+    text-align: center;
+}
+
+#informacao h1 {
+    color: #F3C61F;
+    font-size: 65px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+#informacao h3 {
+    color: #FFF;
+    font-size: 28px;
+    padding-bottom: 55px;
+}
+
+#informacao p {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 55px;
+
+}
+
+/* Countdown */
+#countdown {
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.timer {
+    font-size: 35px;
+    padding-left: 30px;
+    color: #514988;
+}
+
+#count-video h2 {
+    color: #E33881;
+    padding-left: 55px;
+    font-size: 28px;
+    display: flex;
+}
+
+video {
+    padding-left: 20px;
+}
+
+#ingressos{
+    padding-top: 15px;
+    
+}
+
+#ingressos h2{
+    color: #F3C61F;
+    font-size: 25px;
+    padding-left: 75px;
+}
+
+#cards{
+    display: flex;
+    padding-top: 15px;
+    padding-left: 75px;
+    padding-bottom: 30px;
+}
+
+#cards img{
+    width: 180px;
+    cursor: pointer;
+}
+
+button{
+   width: 590px;
+   height: 140px;
+   border-radius: 20px;
+   border: 0px;
+   background-color: #514988;
+   color: #FFF;
+   font-size: 40px;
+   font-weight: 700;
+   margin-top: 20px;
+   margin-left: 150px;
+   cursor:pointer;
+}
+
+button:hover{
+    transform:translateY(2.5);
+    transition: 0.5s;
+    box-shadow: 15px 10px 15px #676096;
+    color: #F3C61F;
+}
